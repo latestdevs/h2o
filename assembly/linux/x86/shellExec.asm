@@ -5,10 +5,8 @@ _start:
     xor eax, eax
     push eax
 
-    ; push "//sh"
     push 0x68732f2f
 
-    ; push "/bin"
     push 0x6e69622f
 
     mov ebx, esp
